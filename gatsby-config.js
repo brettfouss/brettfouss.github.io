@@ -15,7 +15,7 @@ module.exports = {
                 link: "https://food.tools",
                 imagePath: "flavor-map-portfolio-image.png",
                 title: "The Flavor Map",
-                description: "An exploration of Flavor Bible using force simulations. We examine ingredient pairings and properties, as well as their relationship with various cuisines. Created with React, Redux, D3, and styled-components.",
+                description: "An exploration of data from The Flavor Bible using force simulations. We examine ingredient pairings and properties, as well as their relationship with various cuisines. Created with React, Redux, D3, and styled-components.",
                 tags: ["visualization", "narrative"],
                 date: formatTime(new Date())
             },
@@ -25,7 +25,7 @@ module.exports = {
                 link: "https://brettfouss.github.io/chinese-vis",
                 imagePath: "chinese-vis-portfolio-image.png",
                 title: "Visualizing the Chinese Language",
-                description: "A narrative visualization piece that examines various properties and relationships within Chinese characters and words. Contains custom parallel set and force-directed graph visualizations implemented using D3",
+                description: "A narrative visualization piece that examines various properties and relationships within Chinese characters and words. Contains custom parallel set and force-directed graph visualizations implemented using D3.",
                 tags: ["visualization", "narrative"],
                 date: formatTime(new Date())
             },
