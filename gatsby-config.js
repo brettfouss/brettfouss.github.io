@@ -10,6 +10,16 @@ module.exports = {
         author: `@brettfouss`,
         portfolio: ([
             {
+                name: "flavor-map",
+                type: "visualization",
+                link: "https://food.tools",
+                imagePath: "flavor-map-portfolio-image.png",
+                title: "The Flavor Map",
+                description: "An exploration of Flavor Bible using force simulations. We examine ingredient pairings and properties, as well as their relationship with various cuisines. Created with React, Redux, D3, and styled-components.",
+                tags: ["visualization", "narrative"],
+                date: formatTime(new Date())
+            },
+            {
                 name: "chinese-vis",
                 type: "visualization",
                 link: "https://brettfouss.github.io/chinese-vis",
@@ -21,23 +31,13 @@ module.exports = {
             },
             {
                 name: "net-set-poster-abstract",
-                type: "abstract",
+                type: "research",
                 link: "https://vizsec.org/files/2018/Fouss_Poster.pdf",
                 imagePath: "net-set-poster-abstract-portfolio-image.png",
-                title: "NetSet Poster Abstract",
+                title: "NetSet",
                 description: "An abstract for a poster presented at the IEEE Symposium on Visualization for Cyber Security at the 2018 IEEE VIS conference in Berlin, Germany, discussing a network metadata exploration tool that uses novel set visualization techniques.",
                 tags: ["academic", "poster", "abstract", "visualization"],
                 date: formatTime(new Date(2018, 9, 22))
-            },
-            {
-                name: "flavor-map",
-                type: "visualization",
-                link: "https://food.tools",
-                imagePath: "flavor-map-portfolio-image.png",
-                title: "The Flavor Map",
-                description: "*CURRENTLY UNDER CONSTRUCTION* An exploration of ingredients and favorable flavor pairings, as documented in the Flavor Bible.",
-                tags: ["visualization", "narrative"],
-                date: formatTime(new Date())
             }
         ]).map(
             entry => ({
