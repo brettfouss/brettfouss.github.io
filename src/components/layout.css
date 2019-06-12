@@ -4,6 +4,8 @@
     --yellow: #ffeb3b;
     --blue-grey: #263238;
     --light-grey: #f6f6f6;
+    --pink: #e91e63;
+    --yellow: #ffeb3b;
 }
 @font-face {
     font-family: Work Sans;
@@ -767,7 +769,7 @@ pre tt:after {
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
     header {
-        padding-left: 1em; 
+        padding-left: 1em;
         padding-right: 1em;
     }
     .Fluid {
